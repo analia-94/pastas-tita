@@ -1,0 +1,452 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="vendors/bootstrap/css/bootstrap.min.css" />
+    <link
+      rel="stylesheet"
+      href="vendors/jquery.smartcart/css/smart_cart.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="vendors/jquery.owl-carousel/assets/owl.carousel.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="vendors/jquery.owl-carousel/assets/owl.theme.default.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="vendors/jquery.whatsapp/venom-button.min.css"
+    />
+
+    <!-- Estilos  -->
+    <link rel="stylesheet" href="css/estilos.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
+
+    <title>TRABAJO PRACTICO TITA</title>
+  </head>
+  <body>
+    <header class="color-header">
+      <nav class="container navbar navbar-expand-lg">
+        <div class="container justify-content-around">
+          <a class="navbar-brand text-light" href="#">Tita</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <form class="d-flex" role="search">
+            <input
+              class="form-control me-2"
+              type="search"
+              placeholder="Escriba aquí"
+              aria-label="Search"
+            />
+            <button class="btn btn-outline-light text-light" type="submit">
+              Buscar
+            </button>
+          </form>
+        </div>
+
+        <div class="collapse navbar-collapse " id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0 justify-content-end">
+            <li class="nav-item">
+              <a class="nav-link text-light" href="nosotras.html">Nosotras</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle text-light"
+                href="index.html"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Productos
+              </a>
+              <ul class="dropdown-menu">
+                <li>
+                  <a class="dropdown-item" href="pastasSimples.html"
+                    >Pastas simples</a
+                  >
+                </li>
+                <li><a class="dropdown-item" href="Salsas.html">Salsas</a></li>
+                <li>
+                  <a class="dropdown-item" href="acompañamientos.html"
+                    >Acompañamientos</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item" href="pastasRellenas.html"
+                    >Pastas rellenas</a
+                  >
+                </li>
+                <li><a class="dropdown-item" href="vinos.html">Vinos</a></li>
+                <li>
+                  <a class="dropdown-item" href="merchandising.html"
+                    >Merchandising</a
+                  >
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link active text-light"
+                aria-current="page"
+                href="ubicacion.html"
+                >Ubicación</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link active text-light"
+                aria-current="page"
+                href="contacto.html"
+                >Contacto</a
+              >
+            </li>
+            <li>
+              <button
+                type="button"
+                class="position-relative border-0 color-header"
+                data-bs-toggle="offcanvas"
+                data-bs-target="#offcanvasWithBothOptions"
+                aria-controls="offcanvasWithBothOptions"
+              >
+                <span
+                  id="quantityProducts"
+                  class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-success"
+                >
+                  
+                </span>
+                <div class="color-icono">
+                <i class="bi bi-bag"></i>
+              </div>
+              </button>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <section id="Inicio">
+      <div class="container" id="titulo">
+        <div class="row my-5  justify-content-center">
+          <div class="d-flex justify-content-center col-sm-12 col-md-6">
+            <img
+              src="img/Recurso 1.png"
+              class="img-fluid mt-5"
+              alt="Logo de Pastas Tita"
+            />
+          </div>
+          <div class="col-12 col-md-6">
+          <div class="owl-carousel col-12 col-md-6">
+          <img src="img/tita1.png" alt="Foto1">
+            <img src="img/tita2.png" alt="Foto2">
+            <img src="img/tita3.png" alt="Foto3">
+            <img src="img/tita4.png" alt="Foto4">
+            <img src="img/tita5.png" alt="Foto5">
+            <img src="img/tita6.png" alt="Foto6">
+          </div>
+        </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="container">
+      <div class="row">
+          <div
+            class="offcanvas offcanvas-end"
+            data-bs-scroll="true"
+            tabindex="-1"
+            id="offcanvasWithBothOptions"
+            aria-labelledby="offcanvasWithBothOptionsLabel">
+            <div class="offcanvas-header">
+              <h3
+              class="offcanvas-title display-6"
+              id="offcanvasWithBothOptionsLabel">
+              Mi pedido</h3>
+              <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="offcanvas"
+              aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+              <div id="smartcart"></div>
+            </div>
+          </div>
+        <div class="col-md-3 my-4"></div>
+      </div>
+    </section>
+
+    <section class="container-fluid">
+      <div class="d-flex justify-content-center">
+        <div class="card  shadow p-3 mb-5 bg-body rounded mb-3 col" style="max-width: 1300px;">
+          <div class="row g-0">
+            <div class="col-md-4">
+              <img src="img/TITA_38.png" class="img-fluid rounded-start" alt="Foto creadoras de Tita">
+            </div>
+            <div class="col-md-8">
+              <div class="card-body">
+                <h2 class="card-title display-4">Nosotras</h2>
+                <p class="card-text descripcion-nosotras">Somos Mera e Ine, bienvenides a la primera fabrica de pastas veganas de Argentina.</p>
+                <a class="btn color-general text-light" href="nosotras.html" role="button">Conocer más</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="Productos">
+      <h2 class="text-center my-5 display-4">PRODUCTOS</h2>
+      <div class="container d-flex justify-content-evenly">
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3 text-center">
+          <div class="col-xs-12 col-md-6 col-xl-4">
+            <div class="card shadow p-3 mb-5 bg-body rounded">
+              <img
+                src="img/productos/pastassimples.png"
+                class="card-img-top"
+                alt="seccion pastas simples"
+                height="400"
+                width="200"
+              />
+              <div class="card-body">
+                <a
+                  class="card-title text-decoration-none"
+                  href="pastasSimples.html"
+                >
+                  <h3 class="display-6">Pastas simples</h3>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="col-xs-12 col-md-6 col-xl-4">
+            <div class="card shadow p-3 mb-5 bg-body rounded">
+              <img
+                src="img/productos/salsas.png"
+                class="card-img-top"
+                alt="seccion salsas"
+                height="400"
+                width="200"
+              />
+              <div class="card-body">
+                <a
+                  class="card-title text-decoration-none"
+                  href="salsas.html"
+                  ><h3 class="display-6">Salsas</h3></a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="col-xs-12 col-md-6 col-xl-4">
+            <div class="card shadow p-3 mb-5 bg-body rounded">
+              <img
+                src="img/productos/focaccia2.png"
+                class="card-img-top"
+                alt="seccion acompañamientos"
+                height="400"
+                width="200"
+              />
+              <div class="card-body">
+                <a
+                  class="card-title text-decoration-none"
+                  href="acompañamientos.html"
+                  ><h3 class="display-6">Acompañamientos</h3></a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="col-xs-12 col-md-6 col-xl-4">
+            <div class="card shadow p-3 mb-5 bg-body rounded">
+              <img
+                src="img/productos/anolini2.png"
+                class="card-img-top"
+                alt="seccion pastas rellenas"
+                height="400"
+                width="200"
+              />
+              <div class="card-body">
+                <a
+                  class="card-title text-decoration-none"
+                  href="pastasRellenas.html"
+                  ><h3 class="display-6">Pastas rellenas</h3></a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="col-xs-12 col-md-6 col-xl-4">
+            <div class="card shadow p-3 mb-5 bg-body rounded">
+              <img
+                src="img/productos/vino.PNG"
+                class="card-img-top"
+                alt="seccion vinos"
+                height="400"
+                width="200"
+              />
+              <div class="card-body">
+                <a
+                  class="card-title text-decoration-none"
+                  href="vinos.html"
+                  ><h3 class="display-6">Vinos</h3></a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="col-xs-12 col-md-6 col-xl-4">
+            <div class="card shadow p-3 mb-5 bg-body rounded">
+              <img
+                src="img/productos/mercha.PNG"
+                class="card-img-top"
+                alt="seccion merchandising"
+                height="400"
+                width="200"
+              />
+              <div class="card-body">
+                <a
+                  class="card-title text-decoration-none"
+                  href="merchandising.html"
+                  ><h3 class="display-6">Merchandising</h3></a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <section class="container">
+      <div class="row d-flex justify-content-center">
+        <div class="col-md-10 col-xl-8 text-center">
+          <h3 class="mb-4">Testimonios</h3>
+
+        </div>
+      </div>
+    
+      <div class="row text-center">
+        <div class="col-md-4 mb-5 mb-md-0">
+          <div class="d-flex justify-content-center mb-4">
+            <img src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(9).webp"
+              class="rounded-circle shadow-1-strong" alt="Foto usuario" width="150" height="150" />
+          </div>
+          <h4 class="mb-3">Julian Espinosa</h4>
+          <p class="px-xl-3">
+            <i class="fas fa-quote-left pe-2"></i>Llegue en el horario de apertura (11 am) y había una cola de 20 personas esperando.
+            Lleve pasta rellena con la sugerencia de salsa que me hicieron.RIQUÍSIMO !!!
+            Todo un hallazgo !
+            
+            Vuelvo seguro.
+          </p>
+        </div>
+        <div class="col-md-4 mb-5 mb-md-0">
+          <div class="d-flex justify-content-center mb-4">
+            <img src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(2).webp"
+              class="rounded-circle shadow-1-strong" alt="Foto usuario" width="150" height="150" />
+          </div>
+          <h4 class="mb-3">Adriana Barrera Alba</h4>
+          <p class="px-xl-3">
+            <i class="fas fa-quote-left pe-2"></i>La verdad que no tengo palabras para definir lo ricas que son las pastas de acá, probamos varios rellenos y cada uno era mejor que el otro.
+            Y la focaccia, una locura, de otro planeta.
+            ¿Lo mejor de todo? Es que lo tengo cerca.
+            Sin dudas, ya tengo planes para el finde que viene: pastas de Tita, vino y amigues
+          </p>
+        </div>
+        <div class="col-md-4 mb-0">
+          <div class="d-flex justify-content-center mb-4">
+            <img src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(1).webp"
+              class="rounded-circle shadow-1-strong" alt="Foto usuario" width="150" height="150" />
+          </div>
+          <h4 class="mb-3">Jessica Titus</h4>
+          <p class="px-xl-3">
+            <i class="fas fa-quote-left pe-2"></i>Las pastas rellenas riquísimas, lo mismo la focaccia. El finde hay cola, las pibas buena onda pero cuando hay 1 cuadra de cola por ahi deberían darle menos charla a la gente para q todo sea más rápido.
+          </p>
+        </div>
+        
+      </div>
+    </section>
+
+    <footer>
+      <div class="container-fluid mt-5 text-left">
+        <div class="row text-center">
+          <div class="col-lg-4 mt-5">
+            <ul>
+              <li class="list-unstyled"><h5>Categorías</h5></li>
+            
+              <li class="list-unstyled">
+                <a href="index.html" class="text-decoration-none text-light"
+                  >Inicio</a>
+              </li>
+
+              <li class="list-unstyled">
+                <a href="nosotras.html" class="text-decoration-none text-light"
+                  >Nosotras</a
+                >
+              </li>
+              <li class="list-unstyled">
+                <a href="#" class="text-decoration-none text-light"
+                  >Productos</a
+                >
+                <li class="list-unstyled"><a href="ubicacion.html" class="text-decoration-none text-light"
+                  >Ubicación</a
+                ></li>
+              </li>
+              <li class="list-unstyled">
+                <a href="contacto.html" class="text-decoration-none text-light"
+                  >Contacto</a
+                >
+              </li>
+            </ul>
+          </div>
+          <div class="col-lg-4 mt-5">
+             <ul>
+              <li class="list-unstyled"><h5>Contactános</h5></li>
+              <li class="list-unstyled"><i class="bi bi-whatsapp"></i> Whatsapp 1578934966</li>
+              <li class="list-unstyled"><i class="bi bi-envelope"></i> titalavedette@gmail.com</li>
+              <li class="list-unstyled"><i class="bi bi-instagram"></i> @titalavedette</li>
+            </ul>
+          </div>
+          <div class="col-lg-4 mt-5">
+              <ul>
+                <li class="list-unstyled"><h5>Medios de pago</h5></li>
+              <li class="list-unstyled">Efectivo</li>
+              <li class="list-unstyled">Tarjeta de débito</li>
+              <li class="list-unstyled">Tarjeta de crédito</li>
+              <li class="list-unstyled">Mercado Pago</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="container-fluid text-center">
+        <p>Copyright Pastas Tita - 2022. Todos los derechos reservados.</p>
+      </div>
+    </footer>
+    <div id="myButton"></div>
+
+
+      <!-- JavaScript, Bootstrap, jQuery -->
+      <script src="vendors/jquery/jquery-3.6.1.min.js"></script>
+      <script src="vendors/bootstrap/js/bootstrap.bundle.min.js"></script>
+      <script src="vendors/jquery.smartcart/js/jquery.smartCart.js"></script>
+      <script src="vendors/jquery.owl-carousel/owl.carousel.min.js"></script>
+      <script src="vendors/jquery.whatsapp/venom-button.min.js"></script>
+
+    <!-- Scripts -->
+    <script src="js/data.js"></script>
+    <script src="js/scripts.js"></script>
+  </body>
+</html>

@@ -1,0 +1,35 @@
+h1 {
+  font-size: 64px;
+}
+p {
+  font-family: "Raleway", sans-serif;
+}
+body {
+  height: 665px;
+  background-image: url("../img/fondo.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-family: "Noto Sans", sans-serif;
+}
+footer {
+  background-color: #be4e54;
+  color: rgb(255, 255, 255);
+}
+
+h3,
+h2,
+h1 {
+  color: #be4e54;
+}
+
+.color-header,
+.color-general {
+  background: #be4e54;
+}
+.descripcion-nosotras {
+  font-size: 30px;
+}
+.color-icono {
+  font-size: 25px;
+  color: white;
+}
